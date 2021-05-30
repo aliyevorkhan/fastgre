@@ -27,3 +27,16 @@
    }
 }
 ```
+
+* LIST
+```json
+{
+   "context":{
+      "table_name":"users",
+      "cols":[
+         "username",
+         "password"
+      ]
+   }
+}
+```
