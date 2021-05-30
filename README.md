@@ -32,11 +32,29 @@
 ```json
 {
    "context":{
-      "table_name":"users",
+      "table_name":"tablename",
       "cols":[
-         "username",
-         "password"
+         "col1",
+         "col2"
       ]
+   }
+}
+```
+
+* UPDATE
+```json
+{
+   "context":{
+      "table_name":"tablename",
+      "cols":[
+         "col1",
+         "col2"
+      ],
+      "vals":[
+         "new_val1",
+         "new_val2"
+      ],
+      "condition":"col1='val1'"
    }
 }
 ```
